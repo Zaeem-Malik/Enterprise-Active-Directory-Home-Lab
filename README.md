@@ -1,4 +1,4 @@
-# Active Directory Lab
+# Enterprise Active Directory Home Lab 
 
 ## Objective
 [Brief Objective - Remove this afterwards]

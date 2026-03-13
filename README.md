@@ -17,4 +17,4 @@ Set up and configure Active Directory in a virtual environment.
 ## What I Learned
 - How AD works
 - User & group management
-- Basic domain configuration
+- Basic domain configuration 

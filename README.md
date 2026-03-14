@@ -28,7 +28,6 @@ Download Oracle VirtualBox and the extension pack (https://www.virtualbox.org/wi
 Download Windows Server 2019 (https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
 Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10) <br/> <br/>
-![Active Directory Installation](AD-test.gif)
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />

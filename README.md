@@ -27,7 +27,9 @@ Step 1: Download Oracle VirtualBox and the extension pack (https://www.virtualbo
 
 Step 2: Download Windows Server 2019 (https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 
-Step 3: Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10) <br/> <br/>
+Step 3: Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10)
+
+Tip: Note file location for all three downloads<br/> <br/>
 ![Active Directory Installation](AD-test.gif)
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />

@@ -29,16 +29,20 @@ Step 2: Download Windows Server 2019 (https://www.microsoft.com/en-us/evalcenter
 
 Step 3: Download Windows 10 (https://www.microsoft.com/en-us/software-download/windows10)
 
-Tip: Note file location for all three downloads<br/> <br/>
+Tip: Note file location for all three downloads<br/> 
 
-Step 4: Click on “New” and name the VM as you would like, I chose to name it DC for ‘domain controller’. Then for OS choose “Microsoft Windows” and for OS Version choose “Other Windows (64-bit)” as shown below. 
-
-![Active Directory Installation](AD-test.gif)
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 4: Click on “New” and name the VM as you would like, I chose to name it DC for ‘domain controller’. Then for OS choose “Microsoft Windows” and for OS Version choose “Other Windows (64-bit)” as shown below. <br/>
+<img src="https://i.imgur.com/qVO1rAC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 5: Click on settings to configure the VM. Make sure you are in expert (advanced) view. Depending on how much RAM your machine has you can choose the amount. I personally chose 4096 mb (4 GB), 2 processors, and 128 Mb video memory (This makes the GUI smoother). <br/>
+Tip: Allocated at least 2048 MB (2 GB) for RAM
+<img src="https://i.imgur.com/WuAefLk.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+
+Step 6: Click on storage and ‘add optical drive’, then select the Windows server 2019 iso as shown below. <br/>
+<img src="https://i.imgur.com/4YbZzWZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D7EjDCJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>

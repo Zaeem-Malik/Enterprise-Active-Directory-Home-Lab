@@ -82,6 +82,12 @@ Step 14: In order to promote the server to a domain controller, click on the fla
 <br />
 <br />
 
+Step 15: Open active directory users and computers from start, we will create our first OU (organizational unit) and object (user). Right click my domain.com < new < organization unit. Name it ‘Admins2’ then click new < user. Enter first/last name and password. We have now created our first user. In order to make it a domain admin right click, go to properties < member of < add < type ‘domain admins’ < check name < apply < ok. We will now logout and choose ‘other user’ and login using our newly created admin account. <br/>
+<img src="https://i.imgur.com/SRcgNxf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lSdvOSc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 
 
 

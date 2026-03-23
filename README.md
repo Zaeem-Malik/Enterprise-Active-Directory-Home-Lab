@@ -71,6 +71,7 @@ Step 12: Right click on the internal network < properties < Internet Protocol Ve
 <img src="https://i.imgur.com/7du8eT3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
 Step 13: We will now install the AD domain services.  In the server manager dashboard click ‘add roles and features’ < next < next < select the server < next < active directory domain services < next < next < next < install.    <br/>
 <img src="https://i.imgur.com/0JPByEL.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -88,7 +89,17 @@ Step 15: Open active directory users and computers from start, we will create ou
 <br />
 <br />
 
+Step 16: We will now install RAS which will allow our windows 10 client to access the internet through the domain controller. In the server manager dashboard click ‘add roles and features’ < next < next < select the server < next < remote access < next < routing and direct access and VPN < next  < next < next < install.     <br/>
+<img src="https://i.imgur.com/QLgoBYn.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
+Step 17: In the server manager dashboard click on tools < routing and remote access < DC (local) < configure and enable routing and remote access < next < NAT < internet < next < finish. This allows our domain controller to act as a router for our windows client users. 
+Tip: If the two connections don’t appear, close the wizard and try again. <br/>
+<img src="https://i.imgur.com/yeE1FAC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<br />
 
 
 

@@ -101,7 +101,10 @@ Tip: If the two connections don’t appear, close the wizard and try again. <br/
 <br />
 <br />
 
-
+Step 18: We will now install DHCP which will allow our DC to give our clients ip addresses.  In the server manager dashboard click ‘add roles and features’ < next < next < select the server < next < DHCP < add features < next < next < next < install.      <br/>
+<img src="https://i.imgur.com/XyhPAvn.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 

@@ -106,6 +106,13 @@ Step 18: We will now install DHCP which will allow our DC to give our clients ip
 <br />
 <br />
 
+Step 19:  In the server manager dashboard click on tools < DHCP. Click the drop-down arrow on dc.mydomain.com, right click IPv4 < new scope. Once the wizard pop up click next and name the scope what the ip range is, 172.16.0.100-200 < next < start address: 172.0.16.100,  end address: 172.16.0.200  length: 24 (any clients that join the domain will be given an ip address from that length) < next ( we don't need to add any exclusions) < (set lease time as needed, for the purposes of this lab I left it at 8 days) next < yes I want to configure these options now < set router IP as 172.16.0.1 and click add < next < use ‘mydomain.com’ as DNS server and verify IP address is 172.16.0.1 < next < (We don’t need whin server) next < yes I want to activate the scope now < next < finish. Right click  the DHCP server and click authorize then refresh. Once all steps are complete you will see what is shown below where the symbol next to IPv4 has turned green and the following drop down menu. <br/>
+<img src="https://i.imgur.com/kTB0zDY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6GaMLAG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YINXHUL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+<br />
 
 
 

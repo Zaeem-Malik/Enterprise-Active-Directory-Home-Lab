@@ -125,6 +125,13 @@ Tip: Save it to the desktop <br/>
 <br />
 <br />
 
+Step 22: Now we will be creating over 1,000 fake users to add to our domain. Click start < windows powershell < right click windows powershell ISE < more < run as administrator < yes. In powershell click open and find and click on the ‘1_CREATE_USERS’ file. Before we can run the script we have to type ‘Set-ExecutionPolicy Unrestricted’ in the command line and click ‘yes to all’. It will throw a security error if you try running it without doing this first.     <br/>
+<img src="https://i.imgur.com/gfjsagE.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+
 
 
 

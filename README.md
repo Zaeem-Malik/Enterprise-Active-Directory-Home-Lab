@@ -114,7 +114,16 @@ Step 19:  In the server manager dashboard click on tools < DHCP. Click the drop-
 <br />
 <br />
 
+Step 20: Before we run a powershell script to add users to our domain we need to turn off security features for internet explorer. In the server manager dashboard click on ‘configure this local server’ then click ‘IE enhanced security configurations’ and click ‘off’ for both administrators and users.      <br/>
+<img src="https://i.imgur.com/GgkV757.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
+Step 21: Open internet explorer and paste the following link to download the zip file we need and save it somewhere you can easily access. Once downloaded, extract it, and add your name to the top of the ‘names’ text file. Download the script [here](https://github.com/joshmadakor1/AD_PS/archive/refs/heads/master.zip)
+Tip: Save it to the desktop <br/>
+<img src="https://i.imgur.com/wjYkP0q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 

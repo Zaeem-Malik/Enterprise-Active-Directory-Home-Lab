@@ -130,7 +130,38 @@ Step 22: Now we will be creating over 1,000 fake users to add to our domain. Cli
 <br />
 <br />
 
+Step 23: Before we run it we need to go to the correct directory type ‘cd AD_PS-master’ and the ‘ls’ to list the files in that directory and confirm you can see the files from the zip folder. Then click the green play button, it will begin making names with the letter of the first name followed by the last name. Don’t worry if it throws you a few errors, these are because of duplicate names and are harmless.     <br/>
+<img src="https://i.imgur.com/rN3cdb9.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
+Step 24: We will now create a new VM, name it as you want, I named it CLIENT1 and choose windows 10 64-bit. Go into ‘expert’ settings, click on storage and ‘add optical drive’ Then select the Windows iso. Depending on how much RAM your machine has you can choose the amount. I personally chose 4096 mb (4 GB), 2 processors, and 128 Mb video memory. In General, in the features tab change ‘shared clipboard’ and ‘drag-and-drop’ to ‘bi-directional’. Go to the network tab, ensure the first network adapter is attached to the internal. 
+<br/> Tip: Allocated at least 2048 MB (2 GB) for RAM.    <br/>
+<img src="https://i.imgur.com/S0TMuI1.gif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+Step 25: Launch the VM, choose English < next < I dont have a product key < Windows 10 Pro < I accept the license terms < next < custom < next. At this point it will install windows and the VM may restart a few times. Choose your religion < choose keyboard layout US < skip < I dont have internet < continue with limited setup < name it user < next < enter a password < next < accept < not now. Once it finishes loading, open command prompt and type ‘ipconfig’ to if you are connected to the internal network. Note the IPv4 address and default gateway. Try pinging 8.8.8.8 (google.com) to verify internet connectivity.     <br/>
+<img src="https://i.imgur.com/u9SARay.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+Step 26: Right click the start menu and go to system < rename this PC (advanced) < change < name it ‘CLIENT1’ and check domain and type ‘mydomain.com’ < ok. Once this is done you will get a pop up that you joined the domain and need to restart the system.    <br/>
+<img src="https://i.imgur.com/eMrQNTj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aySu6B0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+Step 27: We will now go back to our DC and check the DHCP to see if the client was added to the domain. Tools < DHCP < IPv4 < Scope < Address leases. Here we can see that we have one lease from our client computer and joined it to the network. This means that it asked our DC for a IP address and was also able to access the internet through the DC.    <br/>
+<img src="https://i.imgur.com/KVqcAuL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+Step 28: Go back to the windows 10 vm and try logging in to one of the users we created. Open command prompt and type ‘whoami’ to see that you successfully logged in as one of the users we created and are a part of the domain by looking next to the name.   <br/>
+<img src="https://i.imgur.com/g8j9EpJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bJKXQVr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 
 
